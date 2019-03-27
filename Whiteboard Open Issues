@@ -2,17 +2,17 @@
 
 Aktueller Stand:
 - Librosa Library angewendet und noch mehr features generiert --> 94 features
-- verschiedene Modelle angwendet: SVM, SGD, RandomForest, GBM, CBM
-- Feed Forward steht noch an
-- Convolutional Network steht auf der Kippe
-- bestes ergebnis bis anhin: MAE 1.45 mit cat boost
-- zur zeit läuft Baseline zu den unterschiedlichen Modellen
-- die beiden Modelle, mit den vielversprechensten Ergebnisse, werden weiter getunt. Voraussichtlich SVM and CBM
+- verschiedene Modelle angwendet: SVM, SGD, RandomForest, GBM, CBM, Feed Forward
+- Convolutional Network steht auf der Kippe (Freq-Time-Density Spektrumbilder vorhanden)
+- Entwicklungsumgebung (PowerPoint) leider noch ohne sacret
+- Baseline zu den unterschiedlichen Modellen abgeschlossen (Word)
+- die Modelle, mit den vielversprechensten Ergebnisse, werden weiter getunt. Voraussichtlich Feed Forward, CBM, GBM SVM linear
+- bestes ergebnis bis anhin: MAE 1.486 mit cat boost Kaggle 
 - 4 Nachkommastelle Geschichte: in unseren augen nicht so nützlich, da python float sowieso in double precision rechnet
 
 
 Synch mit Max
 - weshalb spielen die Quantile eine wesentliche Rolle bei den Modellen?
-- Anzahl Features 94 vs. ca. 20? wo liegen die Unterschiede?
+- Anzahl Features 94 vs. ca. 20? wo liegen die Unterschiede? --> Rechenzeit?
 
-
+- Inhalt Vortrag
