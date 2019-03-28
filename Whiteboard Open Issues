@@ -2,7 +2,7 @@
 
 Aktueller Stand:
 - Librosa Library angewendet und noch mehr features generiert --> 94 features
-- verschiedene Modelle angwendet:(Regression: SVR, SGD, RandomForest, GBM, CBM, Feed Forward)
+- verschiedene Modelle angwendet:(alles Regressionsmodelle): SVR, SGD-Regression, RandomForest-Regression, GBM-Regression, CBM-Regression, Feed Forward)
 - Convolutional Network steht auf der Kippe (Freq-Time-Density Spektrumbilder vorhanden)
 - Entwicklungsumgebung (PowerPoint) leider noch ohne sacret
 - Baseline zu den unterschiedlichen Modellen abgeschlossen (Word)
@@ -30,4 +30,5 @@ Problemstellung
 Lösungsansatz
 Modellauswahl
 Fazit
+-crossvalidation von Regressionsmodellen -> keine stratifizierung wie bei den Classifiers! -> führte natürlich zu falschen Optimierungen --> alle Optimierungen nochmals!
 Ausblick
