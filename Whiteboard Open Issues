@@ -2,7 +2,7 @@
 
 Aktueller Stand:
 - Librosa Library angewendet und noch mehr features generiert --> 94 features
-- verschiedene Modelle angwendet: SVM, SGD, RandomForest, GBM, CBM, Feed Forward
+- verschiedene Modelle angwendet:(Regression: SVR, SGD, RandomForest, GBM, CBM, Feed Forward)
 - Convolutional Network steht auf der Kippe (Freq-Time-Density Spektrumbilder vorhanden)
 - Entwicklungsumgebung (PowerPoint) leider noch ohne sacret
 - Baseline zu den unterschiedlichen Modellen abgeschlossen (Word)
@@ -11,8 +11,23 @@ Aktueller Stand:
 - 4 Nachkommastelle Geschichte: in unseren augen nicht so nÃ¼tzlich, da python float sowieso in double precision rechnet
 
 
-Synch mit Max
-- weshalb spielen die Quantile eine wesentliche Rolle bei den Modellen?
+
+Erkenntnis / Synch mit Max:
+
+- Schwellenwerte sind bei den Bäumen beliebt --> typisch für Signale?
+
+- MAE nicht unbedingt als Loss-Function geeignet (FFN) outliers herausnehmen? --> letztes Mal mit 
+
+- crossvalidation --> Bei Regression nicht autom. Daten mischeln  
+
 - Anzahl Features 94 vs. ca. 20? wo liegen die Unterschiede? --> Rechenzeit?
 
+- Design FFN?
+
 - Inhalt Vortrag
+
+Problemstellung
+Lösungsansatz
+Modellauswahl
+Fazit
+Ausblick
