@@ -8,27 +8,23 @@ Aktueller Stand:
 - Baseline zu den unterschiedlichen Modellen abgeschlossen (Word)
 - die Modelle, mit den vielversprechensten Ergebnisse, werden weiter getunt. Voraussichtlich Feed Forward, CBM, GBM SVM linear
 - bestes ergebnis bis anhin: MAE 1.486 mit cat boost Kaggle 
-- 4 Nachkommastelle Geschichte: in unseren augen nicht so nÃ¼tzlich, da python float sowieso in double precision rechnet
-
+- 4 Nachkommastelle Geschichte: in unseren augen nicht so nÃƒÂ¼tzlich, da python float sowieso in double precision rechnet
 
 
 Erkenntnis / Synch mit Max:
-
-- Schwellenwerte sind bei den Bäumen beliebt --> typisch für Signale?
-
+- Schwellenwerte sind bei den BÃ¤umen beliebt --> typisch fÃ¼r Signale?
 - MAE nicht unbedingt als Loss-Function geeignet (FFN) outliers herausnehmen? --> letztes Mal mit 
-
 - crossvalidation --> Bei Regression nicht autom. Daten mischeln  
-
 - Anzahl Features 94 vs. ca. 20? wo liegen die Unterschiede? --> Rechenzeit?
-
 - Design FFN?
 
-- Inhalt Vortrag
 
-Problemstellung
-Lösungsansatz
-Modellauswahl
-Fazit
--crossvalidation von Regressionsmodellen -> keine stratifizierung wie bei den Classifiers! -> führte natürlich zu falschen Optimierungen --> alle Optimierungen nochmals!
+Inhalt Vortrag
+- Problemstellung
+- LÃ¶sungsansatz
+- Modellauswahl
+- Fazit/Ausblick
+
+
+-crossvalidation von Regressionsmodellen -> keine stratifizierung wie bei den Classifiers! -> fÃ¼hrte natÃ¼rlich zu falschen Optimierungen --> alle Optimierungen nochmals!
 Ausblick
