@@ -3,3 +3,7 @@
 .ipynb_checkpoints/
 \catboost_info
 \pictures
+catboost_cached_datasets/amazon/._test.csv
+catboost_cached_datasets/amazon/._train.csv
+catboost_cached_datasets/amazon/test.csv
+catboost_cached_datasets/amazon/train.csv
